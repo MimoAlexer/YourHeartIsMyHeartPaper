@@ -1,0 +1,14 @@
+# Use this file in your plugin's resources folder
+name: YourHeartIsMyHeart
+main: de.mimoalexer.yHIMH.YourHeartIsMyHeart
+version: 1.0
+api-version: 1.13
+commands:
+  heart:
+    description: Control shared damage behavior
+    usage: /heart <start|stop|debug> [start|stop]
+    permission: yourheartis.myheart.use
+permissions:
+  yourheartis.myheart.use:
+    description: Allows using /heart commands
+    default: op
